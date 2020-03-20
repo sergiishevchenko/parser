@@ -62,8 +62,6 @@ def get_data(html):
         import_product = trs[18].find_all('td')[1]
         result2 = []
         for i in import_product:
-            print('11111111111111111')
-            print(i)
             result2.append(i)
         import_product = result2[1].strip()
 
